@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto serif TC', sans-serif;
     }
 p.redred{
     color:red;
@@ -17,4 +17,13 @@ p.redred{
 
 .blueblue{
     color:blue;
+}
+.expedu_icon{
+    color:red
+}
+
+
+.expedu_icon:hover{
+    background-color: blue;
+    color:white;
 }
