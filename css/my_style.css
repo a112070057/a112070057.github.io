@@ -1,23 +1,28 @@
 *{
+<<<<<<< HEAD
     letter-spacing:0.8px ;
     line-height: 1.5em;
 }
 
 body {
     font-family: 'Noto serif TC', sans-serif;
-    }
+
 p.redred{
     color:red;
     font-size: 20px;
     text-align: center;
     text-indent: 1.5em;
     background-color: beige;
+<<<<<<< HEAD
     font-family: 'Noto Sans TC', sans-serif;
 }
 
 .blueblue{
     color:blue;
+
 }
+
+
 .expedu_icon{
     color:red
 }
