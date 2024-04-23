@@ -42,10 +42,26 @@ div#redred{
     background-repeat: no-repeat;
     background-size: cover;
    }
-   ol.mylist.li:hover {
-    background-color: blueviolet;
-    color: azure;
+   .overflowtest{
+    background-color: #635d6da0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 30px auto;
+    overflow: auto;
+    height: 100px;
+   }
+   ol.list-group>li:hover {
+    background-color: rgb(96, 90, 102);
+    color: azure; 
 }
+   ol.mylist>li:hover {
+    background-color: rgb(96, 90, 102);
+    color: azure; 
+}
+ol.mylist{
+    list-style-type: square;
+   }
 table.mytable th{
     width: 80%;
     text-align: center;
