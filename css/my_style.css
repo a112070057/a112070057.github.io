@@ -16,24 +16,44 @@ div#redred{
     text-indent: 1.5em;
     background-color: beige;
     font-family: 'Noto Sans TC', sans-serif;
-    border: 10px solid rgb(221, 202, 160);
+    border: 10px solid #63E6BE;
     border-radius: 50px;
     background-image: url(../assets/img/sky.jpg);
 }
-
-.blueblue{
-    color:blue;
-
+h2.classid{
+    color:#63E6BE
 }
-
+div.mailto:ethan20050602@gmail.com{
+    color:#63E6BE
+}
+.overflowtest1{
+    font-size:18px;
+    background-color: #63E6BE;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 30px auto;
+    overflow:hidden;
+    height: 185px;
+   }
+.big{
+    font-size:30px;
+}
+span.date{
+    color:#63E6BE;
+    font-size:15px;
+}
 
 .expedu_icon{
-    color:red
+    color:#63E6BE
+}
+span.title{
+    font-size: 90px;
+    color:#63E6BE
 }
 
-
 .expedu_icon:hover{
-    background-color: blue;
+    background-color: #63E6BE;
     color:white;
 }
 .bg-primary {
@@ -42,37 +62,43 @@ div#redred{
     background-repeat: no-repeat;
     background-size: cover;
    }
-   .overflowtest{
-    background-color: #635d6da0;
+   .overflowtest2{
+    font-size:18px;
+    background-color: #63E6BE;
     color: white;
     padding: 10px 20px;
     border-radius: 15px;
     margin: 30px auto;
-    overflow: auto;
+    overflow:hidden;
     height: 100px;
    }
    ol.list-group>li:hover {
-    background-color: rgb(96, 90, 102);
+    background-color:#63E6BE;
     color: azure; 
+    font-size: 25px;
 }
    ol.mylist>li:hover {
-    background-color: rgb(96, 90, 102);
+    background-color: #63E6BE;
     color: azure; 
+    font-size: 25px;
 }
 ol.mylist{
     list-style-type: square;
    }
 table.mytable th{
-    width: 80%;
-    text-align: center;
+    padding-left: 10px;
+    margin-left: 10rem;
+    width: 30%;
+    text-align: left;
     background-color: rgb(210, 214, 243);
     color: rgb(58, 58, 58);
-    border: 2.5px solid rgb(139, 139, 139)
+    border: 2.5px solid rgb(139, 139, 139);
 }
 table.mytable td{
-    text-align: center;
+    text-align: left;
     border-collapse: separate;
-    border: 2.5px solid rgb(139, 139, 139)
+    border: 2.5px solid rgb(139, 139, 139);
+    margin-left: 10rem;
 }
 table.mytable tr:nth-child(even){
     background-color: rgb(197, 213, 243);
