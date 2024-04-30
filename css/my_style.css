@@ -10,21 +10,24 @@ div#redred{
     padding-bottom: 50px;
     padding-top: 30px;
     margin: 0px 0px 60px 0px;
-    color:red;
-    font-size: 20px;
+    color:#63E6BE;
+    font-size: 48px;
     text-align: center;
-    text-indent: 1.5em;
-    background-color: beige;
+    text-indent: -1.5em;
+    background-color: rgb(247, 247, 230);
     font-family: 'Noto Sans TC', sans-serif;
     border: 10px solid #63E6BE;
     border-radius: 50px;
-    background-image: url(../assets/img/sky.jpg);
 }
 h2.classid{
     color:#63E6BE
 }
-div.mailto:ethan20050602@gmail.com{
+.mail{
     color:#63E6BE
+}
+.mail:hover{
+    background-color: #63E6BE;
+    color:white;
 }
 .overflowtest1{
     font-size:18px;
@@ -36,12 +39,22 @@ div.mailto:ethan20050602@gmail.com{
     overflow:hidden;
     height: 185px;
    }
+   .overflowtest3{
+    font-size:18px;
+    background-color: #63E6BE;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 30px auto;
+    overflow:hidden;
+    height: 120px;
+   }
 .big{
     font-size:30px;
 }
 span.date{
     color:#63E6BE;
-    font-size:15px;
+    font-size:20px;
 }
 
 .expedu_icon{
